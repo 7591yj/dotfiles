@@ -1,0 +1,7 @@
+# disk 
+mdadm
+smartmontools
+hdparm
+
+# network
+dnsmasq

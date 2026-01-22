@@ -19,4 +19,3 @@ neovim
 
 # misc
 stow
-

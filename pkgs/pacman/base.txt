@@ -23,6 +23,9 @@ tailscale
 openssh
 wget
 rsync
+ethtool
+iptables-nft
+ufw
 
 # terminal 
 zsh
@@ -34,12 +37,21 @@ starship
 tmux
 
 # dev
+pacman-contrib
+diffutils
+pkgfile
+rebuild-detector
+reflector
+pv
+duf
 neovim
 cmake
+ninja
 nodejs
 pnpm
 uv
 docker
+github-cli
 
 # misc
 stow
@@ -48,4 +60,13 @@ fastfetch
 less
 man-db
 man-pages
+lvm2 # PV/VG/LV abstraction, resizing, etc.
+cryptsetup # encryption, keyslots, etc.
+dosfstools
+e2fsprogs # ext4
+exfatprogs
+f2fs-tools
+nfs-utils
 
+efibootmgr
+snapper

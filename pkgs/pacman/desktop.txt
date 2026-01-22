@@ -3,6 +3,10 @@ pipewire
 pipewire-alsa
 pipewire-pulse
 wireplumber
+sof-firmware
+alsa-utils
+rtkit
+gst-plugin-pipewire
 
 # bluetooth
 bluez
@@ -11,6 +15,7 @@ bluez-libs
 bluez-utils
 
 # printer
+system-config-printer
 cups
 cups-filters
 cups-pdf
@@ -39,6 +44,8 @@ fcitx5-mozc
 # network
 networkmanager
 networkmanager-openvpn
+wpa_supplicant
+wireless-regdb
 
 # gui 
 flatpak
@@ -46,6 +53,9 @@ ghostty
 zed
 nautilus
 meld
+mesa
+lib32-mesa
+mesa-utils
 
 # wm
 dgop
@@ -61,6 +71,13 @@ xwayland-satellite
 gnome-keyring
 
 btop
+upower
 btrfs-assistant
 btrfs-progs
 power-profiles-daemon
+gst-libav
+gst-plugins-bad
+gst-plugins-ugly
+ffmpegthumbnailer
+xdg-user-dirs
+libopenraw
