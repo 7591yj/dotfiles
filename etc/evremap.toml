@@ -7,3 +7,12 @@ output = ["KEY_CAPSLOCK"]
 [[remap]]
 input = ["KEY_CAPSLOCK"]
 output = ["KEY_LEFTCTRL"]
+
+[[remap]]
+input = ["KEY_LEFTALT"]
+output = ["KEY_LEFTMETA"]
+
+[[remap]]
+input = ["KEY_LEFTMETA"]
+output = ["KEY_LEFTALT"]
+
