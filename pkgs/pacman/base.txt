@@ -4,6 +4,7 @@ lazygit
 github-cli
 
 # shell
+sudo
 zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
@@ -52,7 +53,6 @@ openssh
 wget
 rsync
 ethtool
-iptables-nft
 ufw
 
 # archives
@@ -72,12 +72,12 @@ exfatprogs
 f2fs-tools
 nfs-utils
 snapper
+btrfs-progs
 
 # boot
 efibootmgr
 
 # fonts
-noto-color-emoji-fontconfig
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji

@@ -1,8 +1,16 @@
 # network
-dnsmasq
+fail2ban
+tcpdump
+mtr
+iperf3
+bind
 
 # storage 
 mdadm
 smartmontools
 hdparm
+nvme-cli
+borg
+cryptsetup
+lm_sensors
 

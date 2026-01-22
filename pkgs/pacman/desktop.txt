@@ -18,15 +18,6 @@ system-config-printer
 cups
 cups-filters
 cups-pdf
-foomatic-db
-foomatic-db-engine
-foomatic-db-gutenprint-ppds
-foomatic-db-nonfree
-foomatic-db-nonfree-ppds
-foomatic-db-ppds
-gutenprint
-hplip
-splix
 
 # usb
 usbutils
@@ -62,6 +53,7 @@ nautilus
 meld
 xdg-user-dirs
 gnome-keyring
+polkit
 
 # utils
 wl-clipboard
@@ -76,9 +68,8 @@ qt6-multimedia
 # monitoring
 btop
 
-# btrfs
+# storage
 btrfs-assistant
-btrfs-progs
 
 # media
 gst-libav

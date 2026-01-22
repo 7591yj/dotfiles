@@ -10,6 +10,7 @@ net.ankiweb.Anki
 org.gnome.Showtime
 org.gnome.Loupe
 org.gnome.Papers
+org.gnome.meld
 
 # communication
 com.discordapp.Discord
