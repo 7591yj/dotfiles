@@ -1,0 +1,28 @@
+# web browser
+app.zen_browser.zen
+
+# documents 
+md.obsidian.Obsidian
+org.onlyoffice.desktopeditors
+
+# viewer
+org.gnome.Showtime
+org.gnome.Loupe
+org.gnome.Papers
+
+# communication
+com.discordapp.Discord
+org.telegram.desktop
+
+# settings
+com.github.tchx84.Flatseal
+
+# entertainment
+com.spotify.Client
+com.valvesoftware.Steam
+org.jellyfin.JellyfinDesktop
+
+# misc
+org.gnome.Snapshot
+me.proton.Pass
+net.ankiweb.Anki

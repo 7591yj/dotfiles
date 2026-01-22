@@ -1,0 +1,22 @@
+# git
+git
+
+# search
+ripgrep
+fd
+fzf
+
+# network
+openssh
+wget
+tailscale
+
+# terminal 
+tmux
+
+# dev
+neovim
+
+# misc
+stow
+

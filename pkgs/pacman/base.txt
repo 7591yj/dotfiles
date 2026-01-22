@@ -1,0 +1,51 @@
+# git
+git
+lazygit
+
+# search
+ripgrep
+fd
+fzf
+
+# font
+noto-color-emoji-fontconfig
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+
+# file
+unrar
+unzip
+yazi
+
+# network
+tailscale
+openssh
+wget
+rsync
+
+# terminal 
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+eza
+zoxide
+starship
+tmux
+
+# dev
+neovim
+cmake
+nodejs
+pnpm
+uv
+docker
+
+# misc
+stow
+paru
+fastfetch
+less
+man-db
+man-pages
+

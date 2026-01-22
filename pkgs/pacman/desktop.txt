@@ -1,0 +1,66 @@
+# audio
+pipewire
+pipewire-alsa
+pipewire-pulse
+wireplumber
+
+# bluetooth
+bluez
+bluez-hid2hci
+bluez-libs
+bluez-utils
+
+# printer
+cups
+cups-filters
+cups-pdf
+foomatic-db
+foomatic-db-engine
+foomatic-db-gutenprint-ppds
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
+gutenprint
+hplip
+splix
+
+# usb
+usbutils
+
+# brightness control
+brightnessctl
+
+# input
+fcitx5
+fcitx5-configtool
+fcitx5-hangul
+fcitx5-mozc
+
+# network
+networkmanager
+networkmanager-openvpn
+
+# gui 
+flatpak
+ghostty
+zed
+nautilus
+meld
+
+# wm
+dgop
+dsearch
+matugen
+wl-clipboard
+cliphist
+cava
+qt6-multimedia
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
+xwayland-satellite
+gnome-keyring
+
+btop
+btrfs-assistant
+btrfs-progs
+power-profiles-daemon

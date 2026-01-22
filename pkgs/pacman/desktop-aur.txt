@@ -1,0 +1,12 @@
+# dms
+greetd-dms-greeter-git
+
+# font
+nerd-fonts-noto-sans-mono
+
+# steam
+steam-devices-git
+
+# misc
+wl-clipboard-x11
+ngrok
