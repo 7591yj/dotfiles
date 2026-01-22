@@ -5,7 +5,6 @@ pipewire-pulse
 wireplumber
 sof-firmware
 alsa-utils
-rtkit
 gst-plugin-pipewire
 
 # bluetooth
@@ -32,10 +31,13 @@ splix
 # usb
 usbutils
 
-# brightness control
+# power 
 brightnessctl
+upower
+power-profiles-daemon
+rtkit
 
-# input
+# ime
 fcitx5
 fcitx5-configtool
 fcitx5-hangul
@@ -47,37 +49,47 @@ networkmanager-openvpn
 wpa_supplicant
 wireless-regdb
 
-# gui 
+# graphics
+mesa
+lib32-mesa
+mesa-utils
+
+# apps 
 flatpak
 ghostty
 zed
 nautilus
 meld
-mesa
-lib32-mesa
-mesa-utils
+xdg-user-dirs
+gnome-keyring
 
-# wm
-dgop
-dsearch
-matugen
+# utils
 wl-clipboard
 cliphist
-cava
-qt6-multimedia
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
 xwayland-satellite
-gnome-keyring
+matugen
+cava
+qt6-multimedia
 
+# monitoring
 btop
-upower
+
+# btrfs
 btrfs-assistant
 btrfs-progs
-power-profiles-daemon
+
+# media
 gst-libav
 gst-plugins-bad
 gst-plugins-ugly
 ffmpegthumbnailer
-xdg-user-dirs
+
+# image
 libopenraw
+
+# wm
+dgop
+dsearch
+

@@ -1,9 +1,0 @@
-intel-ucode
-
-intel-media-driver
-vpl-gpu-rt
-vulkan-intel
-gst-plugin-va
-lib32-vulkan-intel
-
-vpl-gpu-rt

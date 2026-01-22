@@ -1,22 +1,50 @@
-# git
+# version control
 git
 lazygit
+github-cli
 
-# search
+# shell
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+eza
+zoxide
+starship
+tmux
+bat
+
+# finder
 ripgrep
 fd
 fzf
 
-# font
-noto-color-emoji-fontconfig
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
+# editor
+neovim
+less
 
-# file
-unrar
-unzip
-yazi
+# system info
+fastfetch
+man-db
+man-pages
+
+# dev toolchain
+cmake
+ninja
+diffutils
+pacman-contrib
+pkgfile
+rebuild-detector
+reflector
+pv
+duf
+
+# language tooling
+nodejs
+pnpm
+uv
+
+# containers
+docker
 
 # network
 tailscale
@@ -27,39 +55,15 @@ ethtool
 iptables-nft
 ufw
 
-# terminal 
-zsh
-zsh-autosuggestions
-zsh-syntax-highlighting
-eza
-zoxide
-starship
-tmux
+# archives
+unrar
+unzip
+yazi
 
-# dev
-pacman-contrib
-diffutils
-pkgfile
-rebuild-detector
-reflector
-pv
-duf
-neovim
-cmake
-ninja
-nodejs
-pnpm
-uv
-docker
-github-cli
-
-# misc
+# dotfiles 
 stow
-paru
-fastfetch
-less
-man-db
-man-pages
+
+# storage
 lvm2 # PV/VG/LV abstraction, resizing, etc.
 cryptsetup # encryption, keyslots, etc.
 dosfstools
@@ -67,6 +71,14 @@ e2fsprogs # ext4
 exfatprogs
 f2fs-tools
 nfs-utils
-
-efibootmgr
 snapper
+
+# boot
+efibootmgr
+
+# fonts
+noto-color-emoji-fontconfig
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+

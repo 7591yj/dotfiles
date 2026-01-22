@@ -1,9 +1,10 @@
-# web browser
+# browser
 app.zen_browser.zen
 
-# documents 
+# office 
 md.obsidian.Obsidian
 org.onlyoffice.desktopeditors
+net.ankiweb.Anki
 
 # viewer
 org.gnome.Showtime
@@ -14,15 +15,14 @@ org.gnome.Papers
 com.discordapp.Discord
 org.telegram.desktop
 
-# settings
-com.github.tchx84.Flatseal
-
 # entertainment
 com.spotify.Client
 com.valvesoftware.Steam
 org.jellyfin.JellyfinDesktop
 
-# misc
-org.gnome.Snapshot
+# secrets
 me.proton.Pass
-net.ankiweb.Anki
+
+# utils
+com.github.tchx84.Flatseal
+org.gnome.Snapshot

@@ -1,12 +1,15 @@
-# dms
-greetd-dms-greeter-git
+# network
+ngrok
 
-# font
+# graphics
+wl-clipboard-x11
+
+# fonts
 nerd-fonts-noto-sans-mono
+
+# wm 
+greetd-dms-greeter-git
 
 # steam
 steam-devices-git
 
-# misc
-wl-clipboard-x11
-ngrok

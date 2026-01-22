@@ -1,7 +1,8 @@
-# disk 
+# network
+dnsmasq
+
+# storage 
 mdadm
 smartmontools
 hdparm
 
-# network
-dnsmasq

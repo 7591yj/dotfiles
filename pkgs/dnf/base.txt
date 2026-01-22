@@ -1,5 +1,8 @@
-# git
+# version control
 git
+
+# terminal 
+tmux
 
 # search
 ripgrep
@@ -10,9 +13,6 @@ fzf
 openssh
 wget
 tailscale
-
-# terminal 
-tmux
 
 # dev
 neovim
