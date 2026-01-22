@@ -1,0 +1,9 @@
+device_name = "YDKB HFKB (VIAL_DP2J) Keyboard"
+
+[[remap]]
+input = ["KEY_LEFTCTRL"]
+output = ["KEY_CAPSLOCK"]
+
+[[remap]]
+input = ["KEY_CAPSLOCK"]
+output = ["KEY_LEFTCTRL"]
