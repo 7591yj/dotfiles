@@ -53,7 +53,9 @@ nautilus
 meld
 xdg-user-dirs
 gnome-keyring
-polkit
+libsecret
+seahorse
+polkit-gnome
 
 # utils
 wl-clipboard
