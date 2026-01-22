@@ -86,3 +86,6 @@ libopenraw
 dgop
 dsearch
 
+# vm
+virtualbox
+virtualbox-host-modules-arch
