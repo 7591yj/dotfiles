@@ -1,0 +1,6 @@
+[Unit]
+Description=Restart evremap when a keyboard is added
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl restart evremap.service
