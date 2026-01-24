@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
-set -euo pipefail
 
-. "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/utils/lib.sh"
-. "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/utils/detect.sh"
+_self_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# shellcheck disable=SC1091
+. "$_self_dir/../utils/lib.sh"
+# shellcheck disable=SC1091
+. "$_self_dir/../utils/detect.sh"
+# shellcheck disable=SC1091
+. "$_self_dir/../utils/install_rustup.sh"
 
 install_paru() {
   [[ "$(distro)" == "arch" ]] || die "Not an Arch system"
@@ -12,22 +17,27 @@ install_paru() {
   need_cmd makepkg
   need_cmd pacman
 
-  if command -v rustup >/dev/null 2>&1; then
-    if ! rustup toolchain list | grep -q '^stable'; then
-      rustup toolchain install stable
-      rustup default stable
-    fi
+  as_root pacman -S --needed --noconfirm base-devel rustup
+  ensure_rustup_stable
+
+  if have_cmd paru; then
+    return 0
   fi
-  as_root pacman -S --needed --noconfirm base-devel
+
+  if [[ "${DRY_RUN:-0}" != 0 ]]; then
+    log "dryrun: would build and install paru from AUR"
+    return 0
+  fi
 
   (
+    export PATH="$HOME/.cargo/bin:$PATH"
     local tmp
     tmp="$(mktemp -d)"
     trap 'rm -rf "$tmp"' EXIT
     cd "$tmp"
-    git clone --depth 1 https://aur.archlinux.org/paru.git
+    run git clone --depth 1 https://aur.archlinux.org/paru.git
     cd paru
-    makepkg -si --noconfirm
+    run makepkg -si --noconfirm
   )
 }
 
