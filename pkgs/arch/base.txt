@@ -13,6 +13,7 @@ zoxide
 starship
 tmux
 bat
+tree
 
 # finder
 ripgrep
@@ -40,6 +41,7 @@ pv
 duf
 
 # language tooling
+rustup
 nodejs
 pnpm
 uv
