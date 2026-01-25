@@ -42,32 +42,33 @@ as_root() {
   fi
 
   need_cmd sudo
-  run sudo -- "$@"}
+  run sudo -- "$@"
+}
 
 read_manifest() {
- local mode="required"
- case "${1:-}" in
- --optional)
-   mode="optional"
-   shift
-   ;;
- --required)
-   mode="required"
-   shift
-   ;;
- esac
+  local mode="required"
+  case "${1:-}" in
+  --optional)
+    mode="optional"
+    shift
+    ;;
+  --required)
+    mode="required"
+    shift
+    ;;
+  esac
 
- local file="${1:-}"
- [[ -n "$file" ]] || die "read_manifest: missing file argument"
+  local file="${1:-}"
+  [[ -n "$file" ]] || die "read_manifest: missing file argument"
 
- if [[ ! -f "$file" ]]; then
-   if [[ "$mode" == "optional" ]]; then
-     return 0
-   fi
-   die "missing manifest: $file"
- fi
+  if [[ ! -f "$file" ]]; then
+    if [[ "$mode" == "optional" ]]; then
+      return 0
+    fi
+    die "missing manifest: $file"
+  fi
 
- awk '
+  awk '
    {
      sub(/\r$/, "", $0)
      sub(/#.*/, "", $0)
