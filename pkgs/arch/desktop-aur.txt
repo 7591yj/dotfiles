@@ -15,6 +15,7 @@ nerd-fonts-noto-sans-mono
 
 # wm 
 greetd-dms-greeter-git
+dsearch-bin
 
 # steam
 steam-devices-git

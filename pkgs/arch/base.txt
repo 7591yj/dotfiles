@@ -4,6 +4,7 @@ github-cli
 
 # shell
 sudo
+gawk
 eza
 tmux
 bat

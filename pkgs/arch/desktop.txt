@@ -91,7 +91,6 @@ libopenraw
 
 # wm
 dgop
-dsearch
 
 # vm
 virtualbox
