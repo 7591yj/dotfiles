@@ -350,11 +350,16 @@
         "workspaceSwitcher",
         {
           "id": "music",
-          "enabled": true
+          "enabled": true,
+          "mediaSize": 0
         }
       ],
       "centerWidgets": [
-        "clock"
+        {
+          "id": "clock",
+          "enabled": true,
+          "clockCompactMode": false
+        }
       ],
       "rightWidgets": [
         {
@@ -362,16 +367,15 @@
           "enabled": true
         },
         {
-          "id": "clipboard",
-          "enabled": true
-        },
-        {
           "id": "cpuUsage",
-          "enabled": true
+          "enabled": true,
+          "minimumWidth": false
         },
         {
           "id": "memUsage",
-          "enabled": true
+          "enabled": true,
+          "minimumWidth": false,
+          "showSwap": false
         },
         {
           "id": "notificationButton",
@@ -383,7 +387,8 @@
         },
         {
           "id": "controlCenterButton",
-          "enabled": true
+          "enabled": true,
+          "showBatteryIcon": false
         }
       ],
       "spacing": 4,
