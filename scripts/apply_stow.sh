@@ -18,7 +18,8 @@ apply_stow() {
     (
       cd "$repo_root/stow" || exit 1
       run stow --restow --target "$target" "$d"
-    ) || die "stow failed: pkg=$d target=$target"  done
+    ) || die "stow failed: pkg=$d target=$target"
+  done
 }
 
 [[ "${BASH_SOURCE[0]}" != "$0" ]] || die "Do not execute apply_stow.sh! Intended to be sourced only."
