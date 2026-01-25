@@ -1,3 +1,6 @@
+# shell
+blesh-git
+
 # ime
 evremap-git
 
