@@ -1,8 +1,2 @@
-# shell
-blesh-git
-
-# ime
-evremap-git
-
 # system info
 man-pages-ja

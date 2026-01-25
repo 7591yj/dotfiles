@@ -1,13 +1,10 @@
 # version control
 git
-lazygit
 github-cli
 
 # shell
 sudo
 eza
-zoxide
-starship
 tmux
 bat
 tree
